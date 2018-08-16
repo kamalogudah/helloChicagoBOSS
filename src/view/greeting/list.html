@@ -15,6 +15,15 @@
 </ul>
 
 <p><a href="{% url action="create" %}">New greeting...</a></p>
+<form method="post" action="{% url action="goodbye" %}">
+  Delete:
+  <select name="greeting_id">
+    {% for greeting in greetings %}
+    <option value="{{ greeting.id }}">{{ greeting.greeting_text }}
+    {% endfor %}
+    </select>
+    <input type="submit">
+</form>
 {% endblock %}
 
 </body>
