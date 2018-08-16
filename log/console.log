@@ -1,0 +1,16 @@
+2018-08-16 20:24:54.760 [info] <0.33.0> Application lager started on node 'hello_tezza@HP-Pavilion-x360-8CG7072SN1'
+2018-08-16 20:24:54.766 [info] <0.33.0> Application crypto started on node 'hello_tezza@HP-Pavilion-x360-8CG7072SN1'
+2018-08-16 20:24:55.105 [notice] <0.90.0>@lager_app:276 Deprecated lager_file_backend config detected, please consider updating it
+2018-08-16 20:24:56.664 [info] <0.33.0> Application mimetypes started on node 'hello_tezza@HP-Pavilion-x360-8CG7072SN1'
+2018-08-16 20:24:56.969 [info] <0.124.0>@boss_web_controller_init:init_services:132 Starting Boss in development mode...
+2018-08-16 20:24:56.975 [info] <0.124.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2018-08-16 20:24:57.006 [info] <0.33.0> Application tinymq started on node 'hello_tezza@HP-Pavilion-x360-8CG7072SN1'
+2018-08-16 20:24:57.041 [info] <0.33.0> Application ranch started on node 'hello_tezza@HP-Pavilion-x360-8CG7072SN1'
+2018-08-16 20:24:57.043 [info] <0.33.0> Application cowlib started on node 'hello_tezza@HP-Pavilion-x360-8CG7072SN1'
+2018-08-16 20:24:57.049 [info] <0.33.0> Application cowboy started on node 'hello_tezza@HP-Pavilion-x360-8CG7072SN1'
+2018-08-16 20:24:57.106 [notice] <0.124.0>@boss_compiler:compile:38 Compile file "/home/paul_oguda/hello_tezza/src/mail/hello_tezza_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/paul_oguda/hello_tezza/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2018-08-16 20:24:57.127 [notice] <0.124.0>@boss_compiler:compile:38 Compile file "/home/paul_oguda/hello_tezza/src/mail/hello_tezza_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/home/paul_oguda/hello_tezza/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2018-08-16 20:24:57.133 [notice] <0.124.0>@boss_compiler:compile:38 Compile file "/home/paul_oguda/hello_tezza/src/view/lib/tag_modules/hello_tezza_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/home/paul_oguda/hello_tezza/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2018-08-16 20:24:57.138 [notice] <0.124.0>@boss_compiler:compile:38 Compile file "/home/paul_oguda/hello_tezza/src/view/lib/filter_modules/hello_tezza_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/home/paul_oguda/hello_tezza/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2018-08-16 20:24:57.168 [notice] <0.124.0>@boss_compiler:compile:38 Compile file "/home/paul_oguda/hello_tezza/priv/init/hello_tezza_01_news.erl" with options [{include_dirs,["/home/paul_oguda/hello_tezza/include"]}] 
+2018-08-16 20:24:58.001 [warning] <0.32.0> lager_error_logger_h dropped 29 messages in the last second that exceeded the limit of 50 messages/sec

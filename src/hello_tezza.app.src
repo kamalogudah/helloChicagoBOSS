@@ -1,0 +1,8 @@
+{application, hello_tezza, [
+        {description, "Trying out ChicagoBOSS"},
+        {vsn, "0.0.1"},
+        {modules, []},
+        {registered, []},
+        {applications, [kernel, stdlib, crypto]},
+        {env, []}
+    ]}.
